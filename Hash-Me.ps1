@@ -30,7 +30,7 @@ Do  {
 
         $Sum = (Read-Host -Prompt $Msg.Prompt).ToUpper()
 
-        If ($Sum -eq "x")
+        If ($Sum -ceq "X")
             {
                 $Result = $Msg.Abort
             }
